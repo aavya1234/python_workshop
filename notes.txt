@@ -1,0 +1,14 @@
+objects:
+objects in python represent real world entities. They are instance of class.
+The _init_ method is a special method to initialize the object when it is created.
+self is a reference to the current instance of a class. It is used to interact with instance-specific attributes and method making 
+     it a fundamental part of object oriented programming in python.
+self is used within _init_ method to refer to the instance being created.
+classes:
+classes in python are like blueprints for creating objects. It encapsulate both data and behaviour.
+encapsulation:
+it is a concept that restricts access to certain part of an object.
+inheritance:
+it allows you to create new classes that inherit properties and methods from existing classes.
+
+

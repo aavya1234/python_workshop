@@ -1,0 +1,30 @@
+s1={1,2,3}
+>>> s2={2,3,4}
+>>> s3={3,4,5}
+>>> s4=s1.intersection(s2,s3)
+>>> s4
+{3}
+>>> s4=s1.difference(s2,s3)
+>>> s4
+{1}
+>>> s4=s2.difference(s1)
+>>> s4
+{4}
+>>> s4=s2.symmetric_difference(s1)
+>>> s4
+{1, 4}
+>>> student={"name":"aavya","age":10,"grade":"A"}
+>>> student
+{'name': 'aavya', 'age': 10, 'grade': 'A'}
+>>> name=student["name"]            # to print value of the paricular text in the dictionary
+>>> age=student["age"]
+>>> name
+'aavya'
+>>> age
+10
+>>> student["age"]=26          # modify the value
+>>> student
+{'name': 'aavya', 'age': 26, 'grade': 'A'}            
+>>> student["city"]="new york"                            # to add another value to the dictionary
+>>> student
+{'name': 'aavya', 'age': 26, 'grade': 'A', 'city': 'new york'}
